@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #e5e5e533;
+    box-shadow: #e5e5e533;
+}
+
+:root {
+    /* background color */
+    --bg-primary: #fff;
+
+    /* text color */
+    --text-primary: rgb(3, 3, 3);
+
+    /* search box */
+    --search-bg1-primary: #f7f7f7;
+    --search-bg2-primary: #e6e6e6;
+    --search-border-primary: #d6d6d6;
+
+    /* users list */
+    --users-list-bg-primary: #fff;
+    --users-list-bg-secondary: gainsboro;
+
+    /* chat-window */
+
+    /* navbar */
+    --nav-text-primary: #eaeaea;
+    --nav-bg-primary: #08675b;
+
+    /* friend-text-box */
+    --friend-bg-primary: #fff;
+    --chat-text-primary: #eaeaea;
+
+    /* textarea-bg */
+    --textarea-text-primary: black;
+
+    /* attach-icon */
+    --attach-icon-bg-primary: black;
+    --attach-icon-hover-primary: #c0baba;
+
+    /* emoji icon */
+    --emoji-icon-bg-primary: darken;
+
+    /* sidebar */
+     --sidebar-bg-primary:#fff;
+     --sidebar-bg-secondary:#e5e5e5;
+     --sidebar-border-primary:#d6d6d6;
+     
+     --menu-hover-primary:rgb(212, 204, 204);
+     --menu-hover-secondary:#e0d8d8;
+
+     /* loader */
+     --friend-loader-bg-primary:multiply;
+     --loader-size-primary:150px;
+     --border-primary:#ddd;
+
+      /* login-signup */
+     --box-shadow-bg-primary:rgba(0, 0, 0, 0.15);
+     --box-shadow-bg-secondary:  rgba(255, 255, 255, 0.7);
+     --form-bg-primary:#fff;
+
+
+}
+
+.dark {
+
+    /* background color */
+    --bg-primary: #212121;
+
+    /* text color */
+    --text-primary: rgba(255, 255, 255, 0.943);
+
+    /* search box */
+    --search-bg1-primary: #4b4a4a;
+    --search-bg2-primary: #4f4e4e;
+    --search-border-primary: #333333;
+
+    /* users list */
+    --users-list-bg-primary: #212121;
+    --users-list-bg-secondary: rgb(95, 90, 90);
+
+    /* navbar */
+    --nav-bg-primary: #222121;
+
+    /* friend-text-box */
+    --friend-bg-primary: #5e6060;
+
+    /* textarea-bg */
+    --textarea-text-primary: #fff;
+
+    /* attach-icon */
+    --attach-icon-bg-primary: #f0f0f0;
+    --attach-icon-hover-primary: #413c3c;
+
+    /* emoji icon */
+    --emoji-icon-bg-primary: screen;
+
+     /* sidebar */
+    --sidebar-bg-primary:#474545;
+    --sidebar-bg-secondary:#303030;
+    --sidebar-border-primary:#474545;
+
+     --menu-hover-primary:#514f4f;
+     --menu-hover-secondary:#585353;
+
+        /* loader */
+     --friend-loader-bg-primary:screen;
+     --loader-size-primary:45px;
+     
+     --border-primary:#424141;
+
+     /* login-signup */
+     --box-shadow-bg-primary:rgb(43, 42, 42);
+     --box-shadow-bg-secondary: rgb(35, 33, 33);
+     --form-bg-primary:none;
+
+
+}
